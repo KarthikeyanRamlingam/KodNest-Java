@@ -12,6 +12,7 @@ public class Reference{
         e1.name="anu";
         System.out.println(e1.id);
         System.out.println(e1.name);
+        e1.action();
 
         Emp e2;//new ref
         e2=e1;
