@@ -2,10 +2,13 @@ public class Bookapp{
     private int page;
     public void setdata(int x)
     {
-        page=x;
+        if(x>0)
+        {
+            page=x;
+        }
     }
-    public void getdata()
+    public int getdata()
     {
-        System.out.print(page);
+        return page;
     }
 }

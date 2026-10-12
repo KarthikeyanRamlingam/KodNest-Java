@@ -3,6 +3,6 @@ public class Book{
     {
         Bookapp b=new Bookapp();
         b.setdata(100);
-        b.getdata();
+        System.out.println(b.getdata());
     }
 }
