@@ -16,5 +16,7 @@ public class arrlst2411 {
         for (Object x : ar) {
             System.out.print(x + " ");
         }
+        System.out.println();
+        System.out.print(ar.getFirst());
     }
 }
